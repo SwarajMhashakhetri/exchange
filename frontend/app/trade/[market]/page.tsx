@@ -1,8 +1,8 @@
 "use client";
-import { MarketBar } from "@/app/components/MarketBar";
-import { SwapUI } from "@/app/components/SwapUI";
-import { TradeView } from "@/app/components/TradeView";
-import { Depth } from "@/app/components/depth/Depth";
+import { MarketBar } from "@/frontend/app/components/MarketBar";
+import { SwapUI } from "@/frontend/app/components/SwapUI";
+import { TradeView } from "@/frontend/app/components/TradeView";
+import { Depth } from "@/frontend/app/components/depth/Depth";
 import { useParams } from "next/navigation";
 
 export default function Page() {
